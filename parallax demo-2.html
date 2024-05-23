@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parallex demo-2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .img1{
+            background-image: url(b-1.JPG);
+            min-height: 100vh;
+        }
+        .img2{
+            background-image: url(b-2.JPG);
+            min-height: 50vh;
+        }
+        .img3{
+            background-image: url(b-3.JPG);
+            min-height: 100vh;
+        }
+        .img4{
+            background-image: url(b-4.JPG);
+            min-height: 100vh;
+        }
+        .img1 , .img2 , .img3 , .img4{
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .text{
+            font-size: 3vw;
+            font-weight: 300;
+            text-align: center;
+            top:50%;
+            position: absolute;
+            width: 100%;
+        }
+        .text1{
+            font-size: 3vw;
+            font-weight: 300;
+            text-align: center;
+            top:20%;
+            position: absolute;
+            width: 100%;
+        }
+        .bgtext{
+            padding: 2vw;
+            background-color: black;
+            color: white;
+            letter-spacing: .2vw;
+            text-transform: uppercase;
+        }
+        .frist{
+            margin: 3vw;
+            background-color: white;
+        }
+        .frist h2{
+            text-align: center;
+            font-size: 3vw;
+            color: gray;  
+        }
+        .frist p{
+            text-align: left;
+            font-size: 1.5vw;
+            color: gray;
+        }
+        .flex-container{
+            margin: 5vw;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+           padding: 50vh;
+        }
+        .f1{
+            border: .5vh solid white;
+            border-radius: .8vh;
+            margin: 4vh;
+        }
+        .f1 p{
+            color: white;
+            font-size: 1vw;
+            padding: 1vh;
+        }
+        .flex-container img{
+            border-radius: 1vh;
+            position: relative;
+            width: 20vw;
+            height: 20vh;
+        }
+        .btn{
+            background-color: black;
+            color: white;
+            font-size: 1vw;
+            border-radius: 1vw;
+            border: none;
+            padding: 2vh; 
+            top:70%;
+            position: absolute;
+            margin: 2vw;
+        }
+        .btnall{
+            text-align: center;
+            width: 100%;
+         
+        }
+        .btn1{
+            margin: 2vw;
+            background-color: black;
+            color: white;
+            font-size: 1vw;
+            border-radius: 1vw;
+            border: none;
+            padding: 2vh; 
+        
+        }
+       
+    </style>
+</head>
+<body>
+    <section class="img1" >
+<div class="text">
+    <span class="bgtext">
+        Night mode
+    </span> 
+</div>
+
+    <div class="btnall">
+        <button class="btn" >Different Nature</button>
+        <button class="btn1" >NEW PARALLEX</button>
+    </div>
+
+    </section>
+    <section class="section light">
+        <div class="frist">
+            <h2>section-1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, impedit ullam a, ducimus qui maiores sed numquam in dolore perspiciatis temporibus doloribus ipsam asperiores tenetur sequi modi? Ipsum tempore ipsam praesentium ducimus laboriosam ipsa explicabo molestias, et quas recusandae, eius, nulla sint ad excepturi? Sed, eos. Quo ullam dolore omnis, officia optio voluptatum suscipit in vero ex inventore consequatur molestiae.</p>
+        </div>
+    </section>
+    <section class="img2" >
+        <div class="text">
+            <span class="bgtext">
+                More nature
+            </span> 
+        </div>
+            </section>
+            <section class="section light">
+                <div class="frist">
+                    <h2>section-2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, impedit ullam a, ducimus qui maiores sed numquam in dolore perspiciatis temporibus doloribus ipsam asperiores tenetur sequi modi? Ipsum tempore ipsam praesentium ducimus laboriosam ipsa explicabo molestias, et quas recusandae, eius, nulla sint ad excepturi? Sed, eos. Quo ullam dolore omnis, officia optio voluptatum suscipit in vero ex inventore consequatur molestiae.</p>
+                
+                <div class="btnall">
+                    <button class="btn1" >NEW PARALLEX</button>
+                   
+                </div></div>
+            </section>
+            <section class="img3 btn1" >
+                <div class="text1">
+                    <span class="bgtext">
+                        Different nature
+                    </span> 
+                </div>
+                <div class="flex-container">
+                    <div class="f1">
+                        <img src="b-5.jpg" >
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus similique repudiandae quaerat unde aliquam numquam!</p>
+                    </div>
+                    <div class="f1">
+                        <img src="b-6.jpg" >
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus similique repudiandae quaerat unde aliquam numquam!</p>
+                    </div>
+                    <div class="f1">
+                        <img src="c-1.jpg" >
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus similique repudiandae quaerat unde aliquam numquam!</p>
+                    </div>
+                </div>
+                    </section>
+                    <section class="section light">
+                        <div class="frist">
+                            <h2>section-3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, impedit ullam a, ducimus qui maiores sed numquam in dolore perspiciatis temporibus doloribus ipsam asperiores tenetur sequi modi? Ipsum tempore ipsam praesentium ducimus laboriosam ipsa explicabo molestias, et quas recusandae, eius, nulla sint ad excepturi? Sed, eos. Quo ullam dolore omnis, officia optio voluptatum suscipit in vero ex inventore consequatur molestiae.</p>
+                        <div class="btnall">
+                         
+                            <button class="btn1" >NEW PARALLEX</button>
+                        </div>   
+                    </div>
+                    </section>
+                    <section class="img4" >
+                        <div class="text">
+                            <span class="bgtext">
+                               Thank You
+                            </span> 
+                        </div>
+                            </section>
+</body>
+</html>
